@@ -1,0 +1,196 @@
+body{
+    font-size: 16px;
+    background: #FBFBFB;
+    font-family: Abhaya_Libre;
+    width: 1920px;
+    height: 2232px;
+    display: grid;
+    line-height: 1;
+    color: #05243D;
+}
+
+.startWords{
+    font-family: Abhaya_Libre;
+    width: 704px;
+    height: 471px;
+    left:608px;
+    top:72px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.frame17{
+    top:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.frame20{
+    top:176px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.text1{
+    position: relative;
+    top: 32px;
+    font-size: 20px;
+    align-self: center;
+
+}
+
+.text2{
+    position: relative;
+    top:0;
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.line{
+    position: relative;
+    font-size: 20px;
+    align-self: center;
+    padding-bottom: 32px;
+}
+.text3{
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 168px;
+}
+
+.col-lg-8{
+    align-self: center;
+    position: relative;
+    height:1441px;
+    width: 1440px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    margin-top:168px;
+    max-width: 75%;
+    padding: 0;
+}
+#row{
+    height:1441px;;
+}
+.col-6{
+    position: relative;
+    height:1441px;
+
+}
+
+#firstCol{
+    width:704px;
+}
+#secondCol{
+    width:704px;
+}
+
+.pic1{
+    position: relative;
+    width: 704px;
+    height: 830px;
+    padding-bottom: 40px;
+}
+.pict1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+
+
+}
+.discover{
+    position: relative;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #AE8748;
+}
+.stories{
+    position: relative;
+    font-size: 64px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+.frame19{
+    margin-bottom:255px;
+}
+.pic2{
+    position: relative;
+    width: 336px;
+    height: 296px;
+    margin-bottom: 40px;
+}
+.pict2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.wines{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+.frame23{
+
+}
+.pic3{
+    position: relative;
+    width: 336px;
+    height: 456px;
+    margin-bottom: 40px;
+}
+.pict3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Unique{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+.frame22{
+    position:absolute;
+    top: 416px;
+}
+
+.pic4{
+    position: relative;
+    width: 336px;
+    height: 296px;
+    margin-bottom: 40px;
+}
+.pict4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Tasting{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+

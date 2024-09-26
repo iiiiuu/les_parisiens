@@ -1,0 +1,1094 @@
+body{
+    font-size: 16px;
+    font-family: Abhaya_Libre;
+    width: 1920px;
+    height: 4312px;
+    color: #05243D;
+    line-height: 1;
+}
+.body{
+    font-size: 16px;
+    background: #FBFBFB;
+    font-family: Abhaya_Libre;
+    width: 1920px;
+    height: 4312px;
+    color: #05243D;
+    line-height: 1;
+}
+.body.shadow{
+    filter: brightness(50%);
+}
+
+
+
+
+#pict{
+    animation: slideIn2 2s ease-in-out;
+}
+@keyframes slideIn2 {
+    0% { transform: translateY(200%); }
+    100% { transform: translateX(0); }
+}
+
+
+
+.pict{
+    position: absolute;
+    left: 240px;
+    right: 240px;
+    top: 120px;
+    margin-bottom: 80px;
+}
+.pict-vect{
+    width: 1440px;
+    height: 880px;
+    top: 120px;
+    left: 240px;
+    background: url('../pict/img_1.png');
+    background-size: 100%;
+}
+.navbar-header a:hover,.navbar-header a:focus ,.navbar-header a:focus{ text-decoration: none;}
+button,button:hover,button:focus,button:active{
+    border: none;
+    outline: none;
+    background: none;
+    white-space: nowrap;
+}
+
+.navbar-header{
+    animation: slideIn1 4s ease-in-out;
+}
+
+@keyframes slideIn1 {
+    0% { transform: translateY(-200%); }
+    100% { transform: translateX(0); }
+}
+
+.navbar-header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+height: 48px;
+width: 1440px;
+left: 240px;
+right: 240px;
+top: 32px;
+
+
+}
+
+
+
+.logo {
+
+    margin: 0 ;
+    width: 48px;
+    height: 48px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+
+}
+
+.frame28{
+    position: relative;
+    width: 1023px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 369px;
+}
+
+
+
+
+.blog-bt {
+    /* BLOG */
+
+    width: 39px;
+    height: 19px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #05243D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.menu-bt {
+    /* RESTRAUNT MENU */
+
+    width: 129px;
+    height: 19px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #05243D;
+
+    border: none;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+/* WINE CARTE */
+.wine-bt {
+    width: 87px;
+    height: 19px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #05243D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.tea-bt{
+/* TEA TIME */
+
+width: 66px;
+height: 19px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #05243D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.frame5 {
+    position: relative;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+
+    width: 585px;
+
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    margin-right: 200px;
+}
+/* Frame 7 */
+.frame7 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 238px;
+    height: 36px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 3 */
+.frame3 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 170px;
+    height: 36px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 2 */
+.frame2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+
+    width: 74px;
+    height: 36px;
+
+    background: #AE8748;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.book-bt{
+
+
+height: 19px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Frame 1 */
+.frame1 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 72px;
+    height: 36px;
+
+    border: 1px solid #05243D;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* OFFER */
+.offer-bt {
+
+    height: 17px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #05243D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 6 */
+.frame6 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+    gap: 8px;
+
+    width: 36px;
+    height: 19px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* EN */
+.en-bt {
+
+    height: 19px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #05243D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 32 */
+.frame32 {
+
+    height: 8px;
+
+    left: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+/* path */
+.path-bt {
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    left: 1px;
+    top: 2.5px;
+
+    border: 1px solid #05243D;
+    border-radius: 2px;
+}
+
+.les_parisien{
+    width: 1440px;
+    height: 880px;
+
+    position: relative;
+    padding-bottom: 20px;
+}
+.les_parisiens {
+    position: absolute;
+    top: 720px;
+}
+.les_parisiens.hidden1{
+    display: none;
+}
+
+.svg_L{
+    position: absolute;
+    animation:   rotation 1.5s linear  ;
+}
+
+
+@keyframes rotation {
+        0% { transform-origin: bottom center;transform: rotate(180deg) }
+        100% {
+            transform-origin: bottom center;transform: rotate(0deg) }
+        }
+
+
+.svg_L.l{
+    position: relative;
+    margin-right: 15px;
+}
+.svg_L.e1{
+    position: relative;
+    margin-right: 5px;
+}.svg_L.s1{
+     position: relative;
+     margin-right: 60px;
+ }.svg_L.p{
+      position: relative;
+       margin-right: 0;
+  }.svg_L.a{
+       position: relative;
+          margin-right: 12px;
+   }.svg_L.r{
+        position: relative;
+              margin-right: 16px;
+    }.svg_L.i1{
+         position: relative;
+                   margin-right: 20px;
+     }.svg_L.s2{
+          position: relative;
+                         margin-right: 28px;
+      }.svg_L.i2{
+           position: relative;
+                                margin-right: 30px;
+       }.svg_L.e2{
+           position: relative;
+                                        margin-right: 20px;
+       }.svg_L.n{
+            position: relative;
+                                                margin-right: 22px;
+        }.svg_L.s3{
+             position: relative;
+
+         }
+
+    .depuis {
+    position: absolute;
+    bottom: 192px;
+    right: 0;
+}
+
+.secondSlide{
+    position: absolute;
+    margin-top: 1080px;
+}
+
+.startWords{
+
+    width: 704px;
+    height: 471px;
+    left:608px;
+    top:72px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.frame17{
+    top:0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.frame20{
+    top:176px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.text1{
+    position: relative;
+    top: 32px;
+    font-size: 20px;
+    align-self: center;
+
+}
+
+.text2{
+    position: relative;
+    top:0;
+    font-size: 40px;
+    align-self: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.line{
+    position: relative;
+    font-size: 20px;
+    align-self: center;
+    padding-bottom: 32px;
+}
+.text3{
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 168px;
+}
+
+.col-lg-8{
+    align-self: center;
+    position: relative;
+    height:1441px;
+    width: 1440px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    margin-top:168px;
+    max-width: 75%;
+
+}
+#row{
+    position: relative;
+    height:1441px;;
+}
+.col-6{
+    position: relative;
+    height:1441px;
+
+}
+
+#firstCol{
+    height:711px;
+    width:704px;
+}
+#secondCol{
+    width:704px;
+}
+
+.pic1{
+    position: relative;
+    width: 704px;
+    height: 711px;
+    padding-bottom: 40px;
+}
+.pict1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+
+
+}
+.discover{
+    position: relative;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #AE8748;
+}
+.stories{
+    position: relative;
+    font-size: 64px;
+    font-family: Darby Sans Poster Web Light Regular;
+    margin-bottom:382px;
+}
+
+.frame19{
+    margin-bottom:255px;
+}
+.pic2{
+    position: relative;
+    width: 336px;
+    height: 296px;
+    margin-bottom: 40px;
+}
+.pict2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.wines{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+
+.pic3{
+    position: relative;
+    width: 336px;
+    height: 456px;
+    margin-bottom: 40px;
+}
+.pict3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Unique{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+.frame22{
+    position:absolute;
+    top: 416px;
+}
+
+.pic4{
+    position: relative;
+    width: 336px;
+    height: 296px;
+    margin-bottom: 40px;
+}
+.pict4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Tasting{
+    position: relative;
+    font-size: 32px;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+
+
+
+
+.thirdSlide1{
+    position: absolute;
+    margin-top: 3000px;
+    height: 1080px;
+}
+.col-lg-8{
+    height: 1080px;
+}
+
+#firstCol1{
+    width: 704px;
+    height: 1080px;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondCol1{
+    width: 704px;
+    height: 1080px;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame27{
+
+    width: 357px;
+    height: 473px;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame24{
+    top:0;
+    width: 357px;
+    height: 59px;
+}
+
+
+.restaurant{
+    height: 24px;
+    width: 357px;
+    position: relative;
+    font-size: 24px;
+    top:0;
+    font-family: Darby Sans Poster Web Light Regular;
+}
+
+.from{
+    height: 19px;
+    position: relative;
+    font-size: 16px;
+    top:16px;
+    text-align: center;
+}
+
+.frame25{
+    position:relative;
+  width: 344px;
+    height: 198px;
+   top:40px;
+}
+
+.lunch{
+    position:relative;
+    width: 344px;
+    height: 95px;
+    text-align: center;
+}
+
+.contact{
+    position:relative;
+    width: 344px;
+    height: 63px;
+    text-align: center;
+    top:40px;
+}
+
+.frame33{
+
+    width:160px;
+    height:56px;
+    position:relative;
+    padding-top:120px;
+   margin-right: 96px;
+    margin-left: 96px;
+
+}
+
+.book{
+    width:160px;
+    height:56px;
+    position:relative;
+    background-color: #05243D;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    color: white;
+    border-radius: 5px;
+    background-color: #05243D;
+    font-size: 16px;
+}
+
+ .book:hover, .book:focus, .book:active {
+    border-radius: 5px;
+    background-color: #05243D;
+    font-size: 16px;
+    }
+
+/* Frame 12 */
+.frame12{
+    position: absolute;
+    width: 704px;
+    height: 840px;
+}
+
+#img{
+    width: 704px;
+    height: 840px;
+}
+
+
+.button {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 56px;
+    height: 56px;
+}
+
+.button:hover, .button:focus, .button:active {
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+.button:not(:hover) {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.button-1 {
+    top: 392px;
+    left: 32px;
+
+}
+
+.button-2 {
+    top: 392px;
+    left: 616px;
+}
+
+.frame26{
+    width: 357px;
+    height: 297px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+#block {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 733px;
+    height: 569px;
+
+    background: #FBFBFB;
+    box-shadow: -5px 2px 7.9px 4px rgba(5, 36, 61, 0.25);
+    border-radius: 5px;
+    z-index: 999;
+
+    justify-content: center;
+    align-items: center;
+
+    filter: none;
+}
+
+
+
+.frame37{
+    position: relative;
+    width: 704px;
+    height: 292px;
+    left: 14.5px;
+    top: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.lesp{
+    width: 704px;
+    height: 47px;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #05243D;
+    position: relative;
+    top:0;
+    margin-bottom: 48px;
+}
+
+.frame36{
+    position: absolute;
+    bottom: 0;
+    width: 470px;
+    height: 197px;
+    margin-left: 117px;
+}
+
+.frame35{
+    position: absolute;
+    top:0;
+    width: 470px;
+    height: 154px;
+}
+.bein{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+
+
+    width: 470px;
+    height: 19px;
+}
+
+.frame34{
+    position: absolute;
+    bottom: 0;
+
+    width: 470px;
+    height: 111px;
+
+}
+
+.si{position: absolute;
+    top:0;
+    font-size: 16px;
+
+}
+.mersi{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+}
+.A{
+    position: absolute;
+    bottom:0;
+    font-size: 16px;
+    text-align: center;
+    width: 470px;
+    height: 19px;
+}
+.frame43{
+    position: relative;
+    width: 420px;
+    height: 76px;
+   margin-top: 72px;
+    margin-left: 156.5px;
+    justify-content: normal;
+}
+
+/* Frame[ 43 */
+
+
+
+
+.frame40{
+    position: relative;
+    width: 420px;
+    height: 24px;
+}
+
+
+.frame38{
+    position: relative;
+    width: 118px;
+    height: 24px;
+
+}
+
+
+
+
+
+
+.user{
+    position: absolute;
+    left:0;
+    width: 24px;
+    height: 24px;
+    top:0;
+    margin-right: 16px;
+}
+
+
+
+
+
+.personnes{
+    width: 78px;
+    height: 19px;
+    position: absolute;
+    left: 40px;
+    top:3px;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.vect{
+     width: 24px;
+     height: 24px;
+    position: absolute;
+    top:0;
+    right: 0;
+ }
+
+
+
+
+
+.frame41{
+    position: relative;
+    width: 420px;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+
+
+
+.frame40{
+    position: relative;
+    width: 420px;
+    height: 24px;
+}
+
+
+.frame388{
+    position: relative;
+    width: 140px;
+    height: 24px;
+
+}
+
+
+
+
+
+
+.calendar{
+    position: relative;
+    left:0;
+    width: 24px;
+    height: 24px;
+    top:0;
+}
+
+
+
+
+
+.data{
+    width: 86px;
+    height: 19px;
+    position: absolute;
+    left: 40px;
+    top:3px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.vect{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+.frame39{
+    width: 420px;
+    height: 0;
+    position: relative;
+    bottom: 0;
+
+}
+
+
